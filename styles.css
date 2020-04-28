@@ -302,30 +302,7 @@ footer {
     }
 }
 
-@media (min-width: 481px) (max-width: 767px) {
-    .grid-container {
-        grid-template-areas:
-            'header header header header header header'
-            'left left left left left left'
-            'middle middle middle middle middle middle'
-            'right right right right right right'
-            'footer footer footer footer footer footer';
-    }
-
-    .grid-container2 {
-        grid-template-areas:
-            'header header header header header header'
-            'left left left left left left'
-            'right right right right right right'
-            'footer footer footer footer footer footer';
-    }
-
-    header {
-        font-size: .99em;
-    }
-}
-
-@media (min-width: 320px) (max-width: 480px) {
+@media (max-width: 767px) {
     .grid-container {
         grid-template-areas:
             'header header header header header header'
