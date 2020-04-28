@@ -302,7 +302,7 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
     .grid-container {
         grid-template-areas:
             'header header header header header header'
